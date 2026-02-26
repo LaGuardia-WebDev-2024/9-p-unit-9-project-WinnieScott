@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Poetsen+One&display=swap');
 
 body {
-  background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg");
+  background-image: url("https://www.ibackdrop.com/cdn/shop/products/GreenPhotographyBackgroundAbstractTexturedBackdropIBD-201207.jpg?v=1605693456");
   text-align: center;
   margin: auto;
    font-family: "Poetsen One", serif;
@@ -13,7 +13,7 @@ h1{
 }
 
 #myCanvas {
-  background-size: 600px 400px;
+  background-size: 800px 600px;
   border-radius: 30px;
   border: 5px solid white;
 }
