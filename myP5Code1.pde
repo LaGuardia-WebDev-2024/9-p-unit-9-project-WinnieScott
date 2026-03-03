@@ -41,8 +41,8 @@ draw = function(){
     drawAlien(120, 218)
   }
 
-  if(mouseY < 350 && mouseY > 300 && mouseX < 350 && mouseX > 300){
-    drawAlien(320, 319)
+  if(mouseY < 320 && mouseY > 250 && mouseX < 410 && mouseX > 350){
+    drawAlien(330, 305)
   }
 
    else{
@@ -61,6 +61,10 @@ var drawAlien = function(alienX, alienY){
   textSize(50);
   text("👽", alienX, alienY);
 };
+var drawBug = function(bugX, bugY){
+  textSize(50);
+  text(")
+}
 
 
 var drawScene = function(){
