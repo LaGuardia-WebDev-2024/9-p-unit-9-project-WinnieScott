@@ -28,15 +28,25 @@ draw = function(){
     } 
   }
   
-  if(mouseY < 140 && mouseY > 120 && mouseX < 345 && mouseX > 270){
-    drawAlien(260, 115);
+  if(mouseY < 140 && mouseY > 30 && mouseX < 345 && mouseX > 270){
+    drawAlien(270, 115)
   }
+ 
   
-  
-  else{
-    drawAlien(-10, -10)
-  };
-  
+  if(mouseY < 130 && mouseY > 30 && mouseX < 580 && mouseX > 500){
+    drawAlien(515, 115)
+  }
+
+  if(mouseY < 240 && mouseY > 150 && mouseX < 180 && mouseX > 90){
+    drawAlien(120, 218)
+  }
+
+  if(mouseY < 350 && mouseY > 300 && mouseX < 350 && mouseX > 300){
+    drawAlien(320, 319)
+  }
+
+   else{
+    drawAlien(-10, -10)}
 };
 var drawSpace = function(){ 
 textSize(90)
