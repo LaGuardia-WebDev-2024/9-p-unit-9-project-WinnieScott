@@ -59,7 +59,7 @@ if(sceneImage == spaceImage){
    drawAlien(-10, -10)}
 
    if(mousePressed && mouseY < 300 && mouseY > 200 && mouseX < 550 && mouseX > 450){
-   drawYay(random, random(700, 500))
+   drawYay();
    }
 }
   if(sceneImage == forestImage){
@@ -88,7 +88,7 @@ var drawBug = function(bugX, bugY){
 
 var drawYay = function(yayX, yayY){
   textSize(60);
-  text("YAY 🎇", yayX, yayY)
+  text("YAY 🎇", random(700, 500))
 }
 
 
