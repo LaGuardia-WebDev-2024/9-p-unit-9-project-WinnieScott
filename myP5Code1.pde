@@ -67,6 +67,7 @@ if(sceneImage == spaceImage){
     drawBug(310, 250)}
 
 };
+// space emojis
 var drawSpace = function(){ 
 textSize(90)
 text("🚀", 90, 235);
@@ -76,11 +77,12 @@ text("🛰", 320, 319);
 text("⭐", 490, 120);
 text("⭐", 100, 400)};
 
+//alien emojis
 var drawAlien = function(alienX, alienY){
   textSize(50);
   text("👽", alienX, alienY);
 };
-
+//bug emoji
 var drawBug = function(bugX, bugY){
   textSize(50);
   text("🐛", bugX, bugY)
@@ -88,7 +90,7 @@ var drawBug = function(bugX, bugY){
 
 var drawYay = function(yayX, yayY){
   textSize(60);
-  text("YAY 🎇", random(700, 500))
+  text("YAY 🎇", random(0, 700), random(0, 500))
 }
 
 
